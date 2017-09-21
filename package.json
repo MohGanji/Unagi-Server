@@ -1,0 +1,35 @@
+{
+  "name": "forfun",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.3",
+    "decay": "^1.0.10",
+    "express": "~4.15.2",
+    "express-query-boolean": "^1.0.0",
+    "find-hashtags": "^1.0.1",
+    "geolib": "^2.0.22",
+    "jade": "~1.11.0",
+    "jwt-simple": "^0.5.1",
+    "missing": "0.0.1",
+    "mongodb-autoincrement": "^1.0.1",
+    "mongoose": "^4.11.4",
+    "morgan": "~1.8.1",
+    "nodemon": "^1.11.0",
+    "promise": "^8.0.1",
+    "rand-token": "^0.3.0",
+    "serve-favicon": "~2.4.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "should": "^11.2.1",
+    "supertest": "^3.0.0"
+  }
+}

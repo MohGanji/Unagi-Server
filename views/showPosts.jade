@@ -1,0 +1,17 @@
+html
+    head
+        link(rel='stylesheet', href='../../stylesheets/showposts.css', type='text/css')
+    body
+        h1= title
+        ul
+            each val, key in res
+                p #{key+1}:
+                div(class='cont') #{val.content}
+//- extends layout
+
+//- block content
+    
+//-   h1= title
+//-   ul
+//-     each val, key in res
+//-         li #{val.content}

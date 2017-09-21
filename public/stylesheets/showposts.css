@@ -1,0 +1,26 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.cont:hover{
+    width: 40%;
+    text-align: left;
+    padding: 10px;
+    background-color:lightskyblue;
+      word-wrap: break-word;  
+      overflow: visible;   
+}
+.cont{ 
+    width: 40%;
+    text-align: left;
+    padding: 10px;
+    margin: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border:1px solid black;
+}
+
+li{
+    padding: 10px;
+    color: #550055;
+}

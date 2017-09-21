@@ -1,0 +1,14 @@
+{
+
+	"db":
+	{
+		"username": "mohammad",
+		"password": "theUnagi76ers"
+	},
+	"secret": "pater_noster_upto_in_terra",
+	"token":{
+		"accessExpire":180000000,
+		"accessRadius":1000,
+		"refreshExpire":3600000000
+	}
+}
